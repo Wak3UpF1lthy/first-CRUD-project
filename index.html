@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <h2>Создание контакта</h2>
+        <input type="text" id="nameInp" placeholder="Имя" />
+        <input type="text" id="secondNameInp" placeholder="Фамилия" />
+        <input type="text" id="numberInp" placeholder="Номер телефона" />
+        <button type="button" id="addContact-btn">Добавить контакт</button>
+        <button type="button" id="saveChangesBtn" style="display: none">
+          Сохранить изменения
+        </button>
+      </div>
+      <ul class="contact-list" style="display: flex; flex-wrap: wrap"></ul>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
